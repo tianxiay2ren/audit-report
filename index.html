@@ -42,12 +42,29 @@
             text-indent: 2em; /* 首行缩进2字符 */
 		word-break: break-word; /* 防止长单词溢出 */
         }
+	.verify-button {
+	    display: inline-block;
+	    margin: 20px auto;
+	    padding: 10px 25px;
+	    background-color: black;
+	    color: white;
+	    font-size: 16px;
+	    border-radius: 25px;
+	    text-align: center;
+	    cursor: pointer;
+	    transition: 0.3s;
+	}
+.verify-button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}
     </style>
 </head>
 <body>
     <h1>检查结果</h1>
     <div class="content">
         <p>经查验，此报告为中国电子工程设计院股份有限公司2024年年度审计报告，由立信会计师事务所（特殊普通合伙）于2025年05月22日出具，签字注册会计师为石*红、朱*。</p>
+	    <div class="verify-button">更多查验</div>
     </div>
 </body>
 </html>
